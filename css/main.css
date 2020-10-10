@@ -506,7 +506,7 @@ body {
     margin-left: -40px;
     bottom: 50%;
     margin-bottom: -7px;
-
+    z-index: 9999;
     opacity : 0;
     transition: all 1.5s;
     transition-delay: 0.5s;
@@ -515,6 +515,7 @@ body {
 
 #scene01 .button_typo.on {
     opacity: 1;
+    z-index: 9999;
 }
 
 
